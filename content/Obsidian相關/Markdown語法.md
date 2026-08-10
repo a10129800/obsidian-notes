@@ -35,10 +35,9 @@ publish: true
 ## 1. 標題 Heading
 
 用 `#` 表示標題，最多通常到 `######`。
-![[Drawing 2026-08-10 13.28.23.excalidraw|150]]
-
+![[標題分級.png]]
 ## 2. 粗體、斜體、刪除線
-![[Drawing 2026-08-10 13.30.27.excalidraw|150]]
+![[粗體 斜體.png]]
 
 顯示：
 **粗體**
@@ -48,21 +47,21 @@ publish: true
 
 ## 3. 螢光標記
 Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
-![[Drawing 2026-08-10 13.32.19.excalidraw]]
-
+![[螢光標記.png]]
 顯示：<mark>這段文字被標記</mark>
 
 ## 4. 清單
 
-### 無序清單(也可以用 *)
-![[Drawing 2026-08-10 13.37.01.excalidraw|150]]
+### 無序清單(也可以用* *)
+![[無序清單.png]]
+
 顯示：
 - 蘋果
 - 香蕉
 - 橘子
 
 ### 巢狀清單
-![[Drawing 2026-08-10 13.40.44.excalidraw|150]]
+![[巢狀清單.png]]
 顯示：
 - 水果
   - 蘋果
@@ -70,20 +69,20 @@ Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
     - 台灣香蕉
 
 ### 待辦事項 
-![[Drawing 2026-08-10 13.43.17.excalidraw|150]]
+![[待辦.png]]
 顯示：
 - [ ] 還沒完成
 - [x] 已完成
 ---
 ## 5. 引用
 用 `>`：
-![[Drawing 2026-08-10 13.45.20.excalidraw|150]]
+![[引用.png]]
 
 顯示：
 > 這是一段引用文字。
 
 - 多層引用：
-![[Drawing 2026-08-10 13.49.40.excalidraw|150]]
+![[多層引用.png]]
 
 顯示：
 > 第一層 
@@ -93,7 +92,7 @@ Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
 ---
 ## 6. 分隔線
 
-![[Drawing 2026-08-10 13.51.45.excalidraw|100]]
+![[分隔線.png]]
 
 顯示：
 
@@ -104,7 +103,7 @@ Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
 ## 7. 連結
 
 - 一般網址
-![[Drawing 2026-08-10 13.54.08.excalidraw]]
+![[一般網址.png]]
 顯示：
 [Google](https://www.google.com)
 
@@ -112,12 +111,12 @@ Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
 https://www.google.com
 
 - Email
-![[Drawing 2026-08-10 13.56.43.excalidraw|150]]
+![[email.png]]
 
 ---
 ## 8. 表格 ⭐
 
-![[Drawing 2026-08-10 14.01.35.excalidraw|150]]
+![[表格.png]]
 
 顯示：
 
@@ -127,12 +126,12 @@ https://www.google.com
 | 香蕉 | 水果 | 黃色 |
 | 菠菜 | 蔬菜 | 綠色 |
 - 控制對齊
-![[Drawing 2026-08-10 14.04.21.excalidraw|200]]
+![[Pasted image 20260810195310.png]]
 顯示：
 
-| 左對齊 | 置中 | 右對齊 |
-|:---|:---:|---:|
-| A | B | C |
+| 左對齊 | 置中  | 右對齊 |
+| :-- | :-: | --: |
+| A   |  B  |   C |
 
 ---
 
