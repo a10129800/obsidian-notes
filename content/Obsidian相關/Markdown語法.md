@@ -50,6 +50,11 @@ Obsidian 支援 Markdown 的 `<mark>` HTML 標籤：
 ![[螢光標記.png]]
 顯示：<mark>這段文字被標記</mark>
 
+想改顏色但不想用CSS語法:
+
+```
+<span style="background-color: #FFD306; color: #000000;">文字</span>
+```
 ## 4. 清單
 
 ### 無序清單(也可以用* *)
